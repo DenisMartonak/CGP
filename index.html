@@ -2,47 +2,41 @@
 <html>
 
 <head>
-    <style>
-        body {
-            background-color: rgba(34, 36, 36, 255)
-        }
-
-        button {
-            cursor: pointer;
-        }
-
-        hr {
-            height: 2px;
-            background-color: white;
-        }
-
-        h1 {
-            text-align: center;
-            color: antiquewhite;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    </style>
-    <title>Eshop s elektronikou</title>
-    <link rel="icon" href="resources/images/ikonky/home.png">
+    <link rel="stylesheet" href="resources/CSS/index.css">
+    <title>EleShop</title>
+    <link rel="icon" href="resources/images/Index/electronics.png">
 </head>
 
 <body>
-    <h1>Eshop s elektronikou,<i> Denis Martoňák </i>, II.B, CGP</h1>
-    <hr>
-    <center>
-        <a href="Telefony.html"><button>Telefóny</button></a>
-        <a href="TV.html"><button>Televízory</button></a>
-        <a href="NTB.html"><button>Notebooky</button></a>
-        <a href="Monitory.html"><button>Monitory</button></a>
-        <a href="Sluchadla.html"><button>Slúchadlá</button></a>
-        <a href="Info.html" target="_blank"><button>Informacie o nás</button></a>
-        <hr>
-        <br>
-        <br>
-        <img src="resources/images/Banner.png">
-    </center>
-    <br>
-
+    <div class="hornajsok">
+        <div class="Logo">
+            <a href="index.html">
+                <img src="resources/images/Index/electronics.png" />
+            </a>
+        </div>
+        <a href="index.html">
+            <h1 class="Nazov">EleShop</h1>
+        </a>
+        <div class="navmenu">
+            <a href="Telefony.html"><button class="animate">Telefóny</button></a>
+            <a href="TV.html"><button class="animate">Televízory</button></a>
+            <a href="NTB.html"><button class="animate">Notebooky</button></a>
+            <a href="Monitory.html"><button class="animate">Monitory</button></a>
+            <a href="Sluchadla.html"><button class="animate">Slúchadlá</button></a>
+            <a href="Info.html" target="_blank"><button class="animate">Informácie o nás</button></a>
+            <a href=""><img class="menuicon" src="resources/images/Index/menu.png" alt=""></a>
+        </div>
+    </div>
+    <div class="kontajner">
+        <a href="vypredaj.html"><img class="vypredaj" src="resources/images/Index/vypredaj.jpg" alt=""></a>
+        <a href="doprava.html"><img class="dopravazadarmo" src="resources/images/Index/DopravaZadarmo.png" alt=""></a>
+        <h1 class="putavynadpis1">Nepremeškajte veľký výpredaj</h1>
+        <h2 class="putavynadpis2">Zľavy až do 70%</h2>
+        <a href="vypredaj.html"> <button class="zistit">Zistite viac</button></a>
+    </div>
+    <div class="pata">
+        <p>&copy; 2022 Denis Martoňák</p>
+    </div>
 </body>
 
 </html>

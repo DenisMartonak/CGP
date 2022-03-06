@@ -27,6 +27,10 @@ body {
     top: -6px;
 }
 
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 a {
     text-decoration: none;
 }
@@ -142,10 +146,9 @@ dl {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p {
+.cena {
     position: relative;
     left: 120px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Monitor {
@@ -162,7 +165,7 @@ p {
 
 .Sluchadla {
     position: absolute;
-    top: 970px;
+    top: 940px;
     left: 600px;
 }
 
@@ -184,7 +187,7 @@ p {
     top: 220px;
     overflow: auto;
     resize: both;
-    max-width: 1115px;
+    max-width: 500px;
     max-height: 295px;
 }
 
@@ -194,17 +197,17 @@ p {
     top: 610px;
     overflow: auto;
     resize: both;
-    max-width: 1115px;
+    max-width: 500px;
     max-height: 295px;
 }
 
 .popis3 {
     position: absolute;
     left: 600px;
-    top: 1000px;
+    top: 990px;
     overflow: auto;
     resize: both;
-    max-width: 1115px;
+    max-width: 500px;
     max-height: 295px;
 }
 
@@ -214,7 +217,7 @@ p {
     top: 1390px;
     overflow: auto;
     resize: both;
-    max-width: 1115px;
+    max-width: 500px;
     max-height: 295px;
 }
 
@@ -224,6 +227,6 @@ p {
     top: 1774px;
     overflow: auto;
     resize: both;
-    max-width: 1115px;
+    max-width: 500px;
     max-height: 295px;
 }

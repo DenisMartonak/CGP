@@ -177,9 +177,18 @@ textarea:focus {
     display: inline;
 }
 
-.mojhnusksicht {
+.ja {
     position: absolute;
     right: 300px;
     border-radius: 5px;
     border: 1px solid grey;
+}
+
+.audiovideo {
+    margin-left: 40px;
+}
+
+video {
+    width: 480px;
+    height: 270px;
 }

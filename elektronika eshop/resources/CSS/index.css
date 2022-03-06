@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "ShareTech";
+    src: url(../Fonts/ShareTechMono-Regular.ttf);
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/Index/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.stred {
+    text-align: center;
+}
+
+.Logo {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.Nazov {
+    color: white;
+    font-family: "ShareTech";
+    display: inline;
+    position: absolute;
+    top: -6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navmenu {
+    float: right;
+    margin-top: 33px;
+    margin-right: 39px;
+}
+
+.animate {
+    transition: transform 0.5s;
+}
+
+.animate:hover,
+.animate:active {
+    transform: translateY(-2.5px);
+}
+
+button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.hornajsok {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Index/pozadniemenu.jpg);
+    width: 100%;
+    height: 80px;
+    margin-top: -20px;
+    padding-top: 10px;
+}
+
+.menuicon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+}
+
+.vypredaj {
+    position: absolute;
+    max-width: 800px;
+    left: 1100px;
+    top: 100px;
+}
+
+.dopravazadarmo {
+    position: absolute;
+    left: 1200px;
+    top: 500px;
+}
+
+.putavynadpis1 {
+    color: white;
+    margin-left: 280px;
+    margin-top: 80px;
+}
+
+.putavynadpis2 {
+    color: white;
+    margin-left: 440px;
+}
+
+.zistit {
+    position: relative;
+    left: 500px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #6a6a74;
+}
+
+.pata {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: hsl(204, 15%, 34%);
+    padding-top: 0.2em;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1.5625em;
+}
+
+p,
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin: 0;
+}

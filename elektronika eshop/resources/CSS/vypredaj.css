@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "ShareTech";
+    src: url(../Fonts/ShareTechMono-Regular.ttf);
+}
+
+body {
+    background-color: #bae2fc;
+    margin: 0;
+}
+
+.stred {
+    text-align: center;
+}
+
+.Logo {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.Nazov {
+    color: white;
+    font-family: "ShareTech";
+    display: inline;
+    position: absolute;
+    top: -6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navmenu {
+    float: right;
+    margin-top: 33px;
+    margin-right: 39px;
+}
+
+.animate {
+    transition: transform 0.5s;
+}
+
+.animate:hover,
+.animate:active {
+    transform: translateY(-2.5px);
+}
+
+button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.hornajsok {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/Index/pozadniemenu.jpg);
+    width: 100%;
+    height: 80px;
+    margin-top: -20px;
+    padding-top: 10px;
+}
+
+.menuicon {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+}
+
+.kontajner {
+    background-color: white;
+    max-width: 80%;
+    margin-left: 10%;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.zlava {
+    color: red;
+    text-align: center;
+}
+
+img {
+    max-width: 300px;
+    margin-left: 50px;
+}
+
+.pridatkosik {
+    position: relative;
+    left: -245px;
+    background-color: #fff;
+    border: 2px solid #0d172a;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    color: #0d172a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Basier circle";
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+}
+
+.pridatkosik:hover {
+    background-color: #1e293b;
+    color: #fff;
+}
+
+.pata {
+    text-align: center;
+    background-color: hsl(204, 15%, 34%);
+    padding-top: 0.2em;
+    color: white;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1.5625em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.preskrt {
+    text-decoration: line-through;
+}
+
+.novacena {
+    color: red;
+    font-weight: bold;
+}
+
+dl {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    position: relative;
+    left: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Monitor {
+    position: absolute;
+    top: 175px;
+    left: 600px;
+}
+
+.NTB {
+    position: absolute;
+    top: 565px;
+    left: 600px;
+}
+
+.Sluchadla {
+    position: absolute;
+    top: 970px;
+    left: 600px;
+}
+
+.Telefon {
+    position: absolute;
+    top: 1320px;
+    left: 600px;
+}
+
+.TV {
+    position: absolute;
+    top: 1730px;
+    left: 600px;
+}
+
+.popis1 {
+    position: absolute;
+    left: 600px;
+    top: 220px;
+    overflow: auto;
+    resize: both;
+    max-width: 1115px;
+    max-height: 295px;
+}
+
+.popis2 {
+    position: absolute;
+    left: 600px;
+    top: 610px;
+    overflow: auto;
+    resize: both;
+    max-width: 1115px;
+    max-height: 295px;
+}
+
+.popis3 {
+    position: absolute;
+    left: 600px;
+    top: 1000px;
+    overflow: auto;
+    resize: both;
+    max-width: 1115px;
+    max-height: 295px;
+}
+
+.popis4 {
+    position: absolute;
+    left: 600px;
+    top: 1390px;
+    overflow: auto;
+    resize: both;
+    max-width: 1115px;
+    max-height: 295px;
+}
+
+.popis5 {
+    position: absolute;
+    left: 600px;
+    top: 1774px;
+    overflow: auto;
+    resize: both;
+    max-width: 1115px;
+    max-height: 295px;
+}
